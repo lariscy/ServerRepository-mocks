@@ -1,0 +1,124 @@
+/* 
+    Created on : Apr 24, 2016, 8:18:44 PM
+    Author     : Steven
+*/
+
+/****************************************************************************/
+.root {
+    /* define base colors to use throughout */
+    
+    /* backgrounds */
+    -fx-grey-background-1: #424242;
+    -fx-gray-background-2: #626262;
+    -fx-gray-background-3: #828282;
+    
+    /* text */
+    -fx-light-text: #f9f9f9;
+}
+
+/****************************************************************************/
+/* menu bar */
+.top-menu-bar {
+    -fx-background-color: -fx-grey-background-1;
+}
+.top-menu-bar .menu-button .label {
+    -fx-text-fill: -fx-light-text;
+}
+.top-menu-bar .menu-button:hover {
+    -fx-background-color: -fx-gray-background-2;
+}
+.top-menu-bar .menu-button:pressed {
+    -fx-background-color: -fx-gray-background-3;
+}
+
+/****************************************************************************/
+/* context menu */
+/* @todo figure out how to style this correctly ????? */
+.context-menu {
+    -fx-background-color: -fx-grey-background-1;
+}
+
+/****************************************************************************/
+/* toolbar */
+.tool-bar-side {
+    -fx-background-color: -fx-grey-background-1;
+    -fx-padding: 0;
+    -fx-spacing: 0;
+}
+.tool-bar-side .button {
+    -fx-background-color: -fx-grey-background-1;
+    -fx-text-fill: -fx-light-text;
+    //-fx-background-insets: 0, 1 1 1 0, 2 1 1 1;
+    -fx-background-radius: 0;
+    //-fx-background-insets: 0;
+}
+.tool-bar-side .button:hover {
+    -fx-background-color: -fx-gray-background-2;
+}
+.tool-bar-side .button:pressed {
+    -fx-background-color: -fx-gray-background-3;
+}
+/****************************************************************************/
+.tool-bar-bottom {
+    -fx-background-color: -fx-grey-background-1;
+}
+.tool-bar-bottom .label {
+    -fx-text-fill: -fx-light-text;
+}
+
+/****************************************************************************/
+/* treeview */
+.treeview-main {
+    -fx-focus-color: transparent;
+}
+.treeview-main .tree-cell:odd {
+    /* @todo */
+}
+.treeview-main .tree-cell:even {
+    /* @todo */
+}
+.treeview-main .tree-cell:empty {
+    /* @todo */
+}
+.treeview-main .tree-cell:selected {
+    /* @todo */
+}
+.treeview-main .tree-cell > .tree-disclosure-node > .arrow {
+    /* @todo */
+}
+
+
+/****************************************************************************/
+/* OLD STUFF */
+
+/*.menu-bar {
+    -fx-background-color: -fx-grey-background-1;
+}
+.menu-bar .menu-button .label {
+    -fx-text-fill: -fx-light-text;
+}
+.menu-bar .menu-button:hover {
+    -fx-background-color: -fx-gray-background-2;
+}
+.menu-bar .menu-button:pressed {
+    -fx-background-color: -fx-gray-background-3;
+}*/
+
+/*.tool-bar {
+    -fx-background-color: -fx-grey-background-1;
+    -fx-padding: 0;
+    -fx-spacing: 0;
+}
+.tool-bar .button {
+    -fx-background-color: -fx-grey-background-1;
+    -fx-text-fill: -fx-light-text;
+    //-fx-background-insets: 0, 1 1 1 0, 2 1 1 1;
+    -fx-background-radius: 0;
+    //-fx-background-insets: 0;
+}
+.tool-bar .button:hover {
+    -fx-background-color: -fx-gray-background-2;
+}
+.tool-bar .button:pressed {
+    -fx-background-color: -fx-gray-background-3;
+}*/
