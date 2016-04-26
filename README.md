@@ -1,2 +1,2 @@
 # ServerRepository-mocks
-UI mocks
+JavaFX FXML UI mock
