@@ -21,6 +21,9 @@
 .top-menu-bar {
     -fx-background-color: -fx-grey-background-1;
 }
+.top-menu-bar .menu-button {
+    -fx-background-color: -fx-grey-background-1;
+}
 .top-menu-bar .menu-button .label {
     -fx-text-fill: -fx-light-text;
 }
@@ -36,6 +39,18 @@
 /* @todo figure out how to style this correctly ????? */
 .context-menu {
     -fx-background-color: -fx-grey-background-1;
+}
+.context-menu .menu-button {
+    -fx-background-color: -fx-grey-background-1;
+}
+.context-menu .menu-item {
+    -fx-background-color: -fx-grey-background-1;
+}
+.context-menu .menu-item:focused {
+    -fx-background-color: -fx-gray-background-2;
+}
+.context-menu .menu-item:pressed {
+    -fx-background-color: -fx-gray-background-3;
 }
 
 /****************************************************************************/
